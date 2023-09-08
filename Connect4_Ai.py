@@ -236,10 +236,10 @@ draw_board(board)
 
 menu = 1  # Variable for menu screen
 # load button images
-mini_image = pygame.image.load('Min-2.png').convert_alpha()
-alpha_image = pygame.image.load('Alpha-2.png').convert_alpha()
-title_image = pygame.image.load('Connect4-2.png').convert_alpha()
-coin_image = pygame.image.load('Coin.png').convert_alpha()
+mini_image = pygame.image.load('pics/Min-2.png').convert_alpha()
+alpha_image = pygame.image.load('pics/Alpha-2.png').convert_alpha()
+title_image = pygame.image.load('pics/Connect4-2.png').convert_alpha()
+coin_image = pygame.image.load('pics/Coin.png').convert_alpha()
 # create button
 mini_button = button.Button(width / 2 - 120, 430, mini_image, 0.5)
 alpha_button = button.Button(width / 2 - 120, 300, alpha_image, 0.5)
